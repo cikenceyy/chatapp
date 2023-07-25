@@ -1,0 +1,20 @@
+.chat {
+    background-color: #00A884;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 2px solid white;
+    display: flex;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.leftArea {
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightArea {
+    flex: 1;
+}

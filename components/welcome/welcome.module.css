@@ -1,0 +1,37 @@
+.content {
+    width: 100%;
+    display: flex;
+    column-gap: 48px;
+    color: #2857A4;
+}
+
+.leftArea,
+.rightArea {
+    width: 50%;
+}
+
+.leftArea {
+    cursor: pointer;
+    flex-shrink: 0;
+    position: relative;
+    height: 480px;
+    border-radius: 50%;
+    transition: all 500ms ease-in;
+}
+
+.leftArea:hover {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.image {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #AEDFF5;
+}
+
+.rightArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
